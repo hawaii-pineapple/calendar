@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="viewport"
+        content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <meta charset="UTF-8">
+    <title>calendar</title>
+    <!-- フォント -->
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="calendar.css">
+
+</head>
+
+<body style="color:#6b6a6a; background-color:#f7e9d9;  text-align: center;">
+    <div id="main">
+        <!-- ヘッダー -->
+        <h1 id="name">Calendar</h1>
+        <h1 id="yearmonth"></h1>
+
+        <!-- カレンダー移動 -->
+        <div id="move">
+            <button id="prev" onclick="prev()">
+                <h2 id="prevmonth"></h2>
+            </button>
+            <button id="next" onclick="next()">
+                <h2 id="nextmonth"></h2>
+            </button>
+        </div>
+
+        <!-- カレンダー -->
+        <h1 id="calendar"></h1>
+        <script src="calendar_01.js"></script>
+    </div>
+</body>
